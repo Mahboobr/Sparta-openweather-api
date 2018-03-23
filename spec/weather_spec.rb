@@ -4,7 +4,6 @@ describe WeatherAPI do
 
   before(:all) do
       @response = WeatherAPI.new.weather_service
-      # @response = @weatherapi.weather_service.weather_response("London")
       @response.weather_response("London")
     end
 
